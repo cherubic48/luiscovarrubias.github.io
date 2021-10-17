@@ -58,7 +58,7 @@ nav a::before {
 	background-color: #444;
 
 	position: absolute;
-	bottom: -10px;
+	bottom: 10px;
 	width: 0%;
 
 	transition: all ease-in-out 200ms;
