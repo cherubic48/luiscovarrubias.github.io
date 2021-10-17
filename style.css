@@ -81,8 +81,8 @@ p {
 }
 
 .page {
+	text-align: center;
 	
-	padding: 10px;
 }
 
 
@@ -92,12 +92,14 @@ p {
 
 /*about me*/
 .message {
+
 	float: left;
 	width: 60%;
 }
 .pic {
+
 	float: right;
-	padding: 10px;
+	padding: 15px;
 }
 
 
@@ -107,8 +109,9 @@ p {
 /*contact*/
 .info {
 	float: left;
-	text-align: center;
+	text-align: justify;
 	width: 50%
+	
 
 }
 .box {
@@ -117,6 +120,7 @@ p {
 	padding: 20px;
 	background-color: #f3e5ab;
 	border: 3px solid grey;
+
 }
 input[type=text] {
 	width: 100%;
