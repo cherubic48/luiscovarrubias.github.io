@@ -1,20 +1,3 @@
-body {
-	margin: 10;
-	font-family: Verdana, sans-serif;
-	background-color: #fffcec
-}
-
-h1 {
-	text-align: center;
-	font-size: 35px;
-}
-
-.container {
-	width: 80%;
-	margin: 0 auto;
-}
-
-
 /*navbar below*/
 header {
 
@@ -66,18 +49,88 @@ nav a::before {
 
 	transition: all ease-in-out 200ms;
 }
-nav a:hover::before{
+nav a:hover::before {
 	width: 100%;
 }
 
 
-/*about me*/
 
-/*contact*/
-p {
+
+
+/*index*/
+body {
+	font-family: Verdana, sans-serif;
+	background-color: #fffcec
+}
+
+h1 {
+
 	text-align: center;
+	font-size: 35px;
+}
+
+.container {
+
+	width: 80%;
+	margin: 0 auto;
+}
+p {
+	
 	font-size: 18px;
 
+}
+
+.page {
+	
+	padding: 10px;
+}
+
+
+
+
+
+
+/*about me*/
+.message {
+	float: left;
+	width: 75%;
+}
+.pic {
+	float: right;
+	padding: 10px;
+}
+
+
+
+
+
+/*contact*/
+.info {
+	float: left;
+	text-align: center;
+	width: 50%
+
+}
+.box {
+
+	float: right;
+	padding: 20px;
+	background-color: #f3e5ab;
+	border: 3px solid grey;
+}
+input[type=text] {
+	width: 100%;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 13px 0;
+	outline: none;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: 300ms;
+}
+input[type=text]:focus {
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
 }
 
 
