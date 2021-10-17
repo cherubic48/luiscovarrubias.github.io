@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	font-family: Verdana, sans-serif;
-	background-color: #ffecc4
+	background-color: #fffcec
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
 /*navbar below*/
 header {
 	padding: 10px 0;
-	background: #ffc4c4;
+	background: #f3e5ab;
 }
 header::after {
 	content: '';
