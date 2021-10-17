@@ -20,7 +20,7 @@ header {
 }
 header::after {
 	content: '';
-	display: table;
+	display: flex;
 	clear: both;
 }
 nav {
