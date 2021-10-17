@@ -15,7 +15,7 @@ h1 {
 
 /*navbar below*/
 header {
-	padding: 1px 0;
+	padding: 10px 0;
 	background: #c4ffd1;
 }
 header::after {
