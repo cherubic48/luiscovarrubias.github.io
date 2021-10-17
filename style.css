@@ -1,5 +1,5 @@
 body {
-	margin: 0;
+	margin: 10;
 	font-family: Verdana, sans-serif;
 	background-color: #fffcec
 }
@@ -14,8 +14,10 @@ h1 {
 	margin: 0 auto;
 }
 
+
 /*navbar below*/
 header {
+
 	padding: 10px 0;
 	background: #f3e5ab;
 }
@@ -25,6 +27,7 @@ header::after {
 	clear: both;
 }
 nav {
+	
 	text-align: center;
 }
 nav ul {
@@ -67,6 +70,15 @@ nav a:hover::before{
 	width: 100%;
 }
 
+
+/*about me*/
+
+/*contact*/
+p {
+	text-align: center;
+	font-size: 18px;
+
+}
 
 
 
