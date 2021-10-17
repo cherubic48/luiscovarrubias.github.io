@@ -7,6 +7,7 @@ body {
 h1 {
 	float: left;
 	vertical-align: middle;
+	font-size: 30px;
 }
 
 .container {
@@ -26,7 +27,6 @@ header::after {
 }
 nav {
 	float: right;
-
 }
 nav ul {
 	margin: 0;
