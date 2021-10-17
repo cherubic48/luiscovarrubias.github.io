@@ -6,7 +6,7 @@ body {
 
 h1 {
 	text-align: center;
-	font-size: 31px;
+
 }
 
 .container {
@@ -34,9 +34,10 @@ nav ul {
 }
 nav li {
 	display: inline-block;
-	margin-left: 50px;
+	margin: 0 25px 0 25px;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
+	
 	
 
 	position: relative;
