@@ -47,7 +47,7 @@ nav a::before {
 	bottom: 10px;
 	width: 0%;
 
-	transition: all ease-in-out 200ms;
+	transition: all ease-in-out 100ms;
 }
 nav a:hover::before {
 	width: 100%;
