@@ -1,6 +1,5 @@
 /*navbar below*/
 header {
-
 	padding: 10px 0;
 	background: #f3e5ab;
 }
@@ -10,7 +9,7 @@ header::after {
 	clear: both;
 }
 nav {
-	
+	width: 100%;
 	text-align: center;
 }
 nav ul {
@@ -20,13 +19,11 @@ nav ul {
 }
 nav li {
 	display: inline-block;
-	margin: 0 25px 0 25px;
+	margin: 10px 15px 0px 15px;
 	padding-top: 10px;
-	padding-bottom: 20px;
-	
-	
-
+	padding-bottom: 15px;
 	position: relative;
+	font-weight: 600;
 }
 nav a {
 	color: #444;
@@ -52,7 +49,11 @@ nav a::before {
 nav a:hover::before {
 	width: 100%;
 }
-
+.container {
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
 
 
 
@@ -62,17 +63,20 @@ body {
 	font-family: Verdana, sans-serif;
 	background-color: #fffcec
 }
+.projects a{
+	font-family: Garamond, serif;
+	text-decoration:none;
+	cursor: pointer;
+	color: #000;
+}
+.projects a:hover{
+	text-decoration: underline;
+}
 
 h1 {
 
 	text-align: center;
 	font-size: 35px;
-}
-
-.container {
-
-	width: 80%;
-	margin: 0 auto;
 }
 p {
 	
@@ -92,16 +96,22 @@ p {
 
 /*about me*/
 .message {
-
-	float: left;
+	font-family: Garamond, serif;
+	text-align: left;
 	width: 60%;
 }
+.message p{
+	text-align: left;
+}
 .pic {
-
-	float: right;
+	text-align: center;
 	padding: 15px;
 }
-
+@media only screen and (min-width: 650px){
+	.pic{
+		float: right
+	}
+}
 
 
 
@@ -109,18 +119,14 @@ p {
 /*contact*/
 .info {
 	float: left;
-	text-align: justify;
+	text-align: left;
 	width: 50%
-	
-
 }
 .box {
-
-	float: right;
+	max-width: 100%;
 	padding: 20px;
 	background-color: #f3e5ab;
 	border: 3px solid grey;
-
 }
 input[type=text] {
 	width: 100%;
@@ -135,6 +141,15 @@ input[type=text] {
 input[type=text]:focus {
 	border-color: dodgerBlue;
 	box-shadow: 0 0 8px 0 dodgerBlue;
+}
+@media only screen and (min-width: 700px){
+	.info{
+		float: left;
+	}
+	.box{
+		max-width: 50%;
+		float: right
+	}
 }
 
 
