@@ -124,7 +124,6 @@ h1 {
 /*contact*/
 .info {
 	text-align: left;
-	width: 50%
 }
 .box {
 	padding: 20px;
@@ -145,7 +144,7 @@ input[type=text]:focus {
 	border-color: dodgerBlue;
 	box-shadow: 0 0 8px 0 dodgerBlue;
 }
-@media only screen and (min-width: 750px){
+@media only screen and (min-width: 700px){
 	.info{
 		float: left;
 	}
