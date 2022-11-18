@@ -1,6 +1,6 @@
 /*navbar below*/
 header {
-	padding: 10px 0;
+	padding: 15px 0 10px 0;
 	background: #f3e5ab;
 }
 header::after {
@@ -9,6 +9,7 @@ header::after {
 	clear: both;
 }
 nav {
+	padding: 10px 0 0 0;
 	width: 100%;
 	text-align: center;
 }
@@ -55,8 +56,19 @@ nav a:hover::before {
 	margin: auto;
 }
 
-
-
+/*all pages*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+p {
+	font-size: 18px;
+}
+.page {
+	text-align: center;
+	
+}
 
 /*index*/
 body {
@@ -72,21 +84,9 @@ body {
 .projects a:hover{
 	text-decoration: underline;
 }
-
 h1 {
-
 	text-align: center;
 	font-size: 35px;
-}
-p {
-	
-	font-size: 18px;
-
-}
-
-.page {
-	text-align: center;
-	
 }
 
 
@@ -96,20 +96,25 @@ p {
 
 /*about me*/
 .message {
+	padding: 20px 20px 0 20px;
 	font-family: Garamond, serif;
 	text-align: left;
-	width: 60%;
-}
-.message p{
-	text-align: left;
+	width: 100%;
 }
 .pic {
 	text-align: center;
 	padding: 15px;
 }
-@media only screen and (min-width: 650px){
+@media only screen and (min-width: 966px){
+	.message{
+		float: left;
+		width: 60%;
+	}
+	.message p{
+		text-align: left;
+	}
 	.pic{
-		float: right
+		float: right;
 	}
 }
 
@@ -118,12 +123,10 @@ p {
 
 /*contact*/
 .info {
-	float: left;
 	text-align: left;
 	width: 50%
 }
 .box {
-	max-width: 100%;
 	padding: 20px;
 	background-color: #f3e5ab;
 	border: 3px solid grey;
@@ -142,7 +145,7 @@ input[type=text]:focus {
 	border-color: dodgerBlue;
 	box-shadow: 0 0 8px 0 dodgerBlue;
 }
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 750px){
 	.info{
 		float: left;
 	}
@@ -151,15 +154,6 @@ input[type=text]:focus {
 		float: right
 	}
 }
-
-
-
-
-
-
-
-
-
 
 
 
