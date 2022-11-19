@@ -1,7 +1,7 @@
 /*navbar below*/
 header {
 	padding: 20px 0 10px 0;
-	background: #f3e5ab;
+	background: #33cca8;
 }
 header::after {
 	content: '';
@@ -12,6 +12,7 @@ nav {
 	padding: 10px 0 0 0;
 	width: 100%;
 	text-align: center;
+	
 }
 nav ul {
 	margin: 0;
@@ -39,7 +40,7 @@ nav a::before {
 	content:'';
 	display: block;
 	height: 5px;
-	background-color: #444;
+	background-color: #555;
 
 	position: absolute;
 	bottom: 10px;
@@ -67,13 +68,12 @@ p {
 }
 .page {
 	text-align: center;
-	
+	font-family: Gill Sans, sans-serif;
 }
 
 /*index*/
 body {
 	font-family: Verdana, sans-serif;
-	background-color: #fffcec
 }
 .projects a{
 	text-decoration:none;
@@ -133,13 +133,20 @@ h1 {
 
 /*contact*/
 .info {
-	text-align: left;
+	text-align: center;
 	padding: 10px 0 0 10px;
+}
+.info a{
+	text-decoration: none;
+	color: #000;
+}
+.info a:hover{
+	text-decoration: underline;
 }
 .box {
 	padding: 20px;
-	background-color: #f3e5ab;
-	border: 3px solid grey;
+	/*background-color: #f3e5ab;
+	border: 3px solid grey;*/
 }
 input[type=text] {
 	width: 100%;
@@ -156,9 +163,9 @@ input[type=text]:focus {
 	box-shadow: 0 0 8px 0 dodgerBlue;
 }
 @media only screen and (min-width: 700px){
-	.info{
+	/*.info{
 		float: left;
-	}
+	}*/
 	.box{
 		max-width: 50%;
 		float: right
