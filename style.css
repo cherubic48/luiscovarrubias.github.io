@@ -71,6 +71,7 @@ p {
 	font-family: Gill Sans, sans-serif;
 }
 
+
 /*index*/
 body {
 	font-family: Verdana, sans-serif;
@@ -80,10 +81,7 @@ body {
 	cursor: pointer;
 	color: #000;
 }
-.projects img{
-	width: 35%;
-	height: 35%;
-}
+
 .projects a:hover{
 	text-decoration: underline;
 }
@@ -95,6 +93,24 @@ h1 {
 	.projects img{
 		width: 20%;
 		height: 20%;
+	}
+}
+
+/*projectsPage*/
+.projectsPage img{
+	width: 35%;
+	height: 35%;
+}
+.projectsPage p{
+	padding: 0 40px;
+}
+@media only screen and (min-width: 1500px){
+	.projectsPage img{
+		width: 20%;
+		height: 20%;
+	}
+	.projectsPage p{
+		padding: 0 400px;
 	}
 }
 
