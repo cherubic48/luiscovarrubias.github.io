@@ -57,6 +57,8 @@ nav a:hover::before {
 	margin: auto;
 }
 
+
+
 /*all pages*/
 *{
 	padding: 0;
@@ -70,6 +72,7 @@ p {
 	text-align: center;
 	font-family: Gill Sans, sans-serif;
 }
+
 
 
 /*index*/
@@ -96,13 +99,26 @@ h1 {
 	}
 }
 
+
+
+
 /*projectsPage*/
+.projectsPage{
+	padding: 0 20%;
+}
 .projectsPage img{
 	width: 35%;
 	height: 35%;
 }
 .projectsPage p{
 	padding: 0 40px;
+}
+.projectsPage h1 {
+	text-align: left;
+	font-size: 35px;
+}
+.projectsPage h3{
+	text-align: left;
 }
 @media only screen and (min-width: 1500px){
 	.projectsPage img{
@@ -113,6 +129,48 @@ h1 {
 		padding: 0 400px;
 	}
 }
+
+/*appPage*/
+.appInfo{
+	text-align: left;
+}
+.appInfo img{
+	border-radius: 25%;
+	float: left;
+	padding: 0 20px 0 20px;
+	width: 35%;
+	height: 35%;
+}
+.appInfo p{
+	padding: 0;
+}
+@media only screen and (min-width: 1500px){
+	.appInfo img{
+		width: 20%;
+		height: 20%;
+	}
+	.appInfo p{
+		padding: 0 400px;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	.appInfo h1{
+		font-size: 25px;
+	}
+	.appInfo h3{
+		font-size: 15px;
+	}
+	.appInfo{
+
+	}
+}
+
+.appShots img{
+	
+	border-radius: 0%;
+}
+
 
 
 
