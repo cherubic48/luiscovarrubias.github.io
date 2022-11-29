@@ -92,12 +92,6 @@ h1 {
 	text-align: center;
 	font-size: 35px;
 }
-@media only screen and (min-width: 1200px){
-	.projects img{
-		width: 20%;
-		height: 20%;
-	}
-}
 
 
 
@@ -122,11 +116,12 @@ h1 {
 }
 @media only screen and (min-width: 1500px){
 	.projectsPage img{
-		width: 20%;
-		height: 20%;
+		width: 25%;
+		height: 25%;
 	}
 	.projectsPage p{
-		padding: 0 400px;
+		text-align: center;
+		padding: 0 20%;
 	}
 }
 
@@ -209,6 +204,9 @@ h1 {
 .info {
 	text-align: center;
 	padding: 10px 0 0 10px;
+}
+.info p{
+    padding: 2px;
 }
 .info a{
 	text-decoration: none;
