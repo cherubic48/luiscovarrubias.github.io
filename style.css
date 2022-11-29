@@ -140,10 +140,6 @@ h1 {
 	width: 35%;
     height: 35%;
 }
-.appPage p{
-	padding: 10px 40px;
-	text-align: center;
-}
 
 	/*APP INFO*/
 .appInfo{
@@ -160,6 +156,9 @@ h1 {
 .appInfo h1{
 	text-align: left;
     font-size: 35px;
+}
+.appInfo p{
+    text-align: left;
 }
 
 
@@ -180,13 +179,19 @@ h1 {
 		height: 35%;
 	}
 	.appInfo p{
-		padding: 0 20%;
+		padding-right: 25%;
+	}
+}
+@media only screen and (min-width: 1200px){
+	.appInfo img{
+		width: 25%;
+		height: 25%;
 	}
 }
 @media only screen and (min-width: 1400px){
 	.appInfo img{
-		width: 20%;
-		height: 20%;
+		width: 18%;
+		height: 18%;
 	}
 }
 @media only screen and (max-width: 700px){
