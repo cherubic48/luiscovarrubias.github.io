@@ -134,6 +134,7 @@ h1 {
 /*appPage*/
 .appPage{
 	padding: 0 10%;
+	padding-bottom: 75px;
 }
 .appPage img{
 	width: 35%;
