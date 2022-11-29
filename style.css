@@ -132,7 +132,21 @@ h1 {
 }
 
 /*appPage*/
+.appPage{
+	padding: 0 10%;
+}
+.appPage img{
+	width: 35%;
+    height: 35%;
+}
+.appPage p{
+	padding: 10px 40px;
+	text-align: center;
+}
+
+	/*APP INFO*/
 .appInfo{
+	display: inline-block;
 	text-align: left;
 }
 .appInfo img{
@@ -142,19 +156,38 @@ h1 {
 	width: 35%;
 	height: 35%;
 }
-.appInfo p{
-	padding: 0;
+.appInfo h1{
+	text-align: left;
+    font-size: 35px;
 }
-@media only screen and (min-width: 1500px){
+
+
+/* APP SCREENSHOTS*/
+.appShots{
+	padding: 20px 0;
+	display: inline-block;
+}
+.appShots img{
+	border-radius: 0%;
+	width: 50%;
+	height: 50%;
+}
+
+@media only screen and (min-width: 700px){
+	.appInfo img{
+		width: 35%;
+		height: 35%;
+	}
+	.appInfo p{
+		padding: 0 20%;
+	}
+}
+@media only screen and (min-width: 1400px){
 	.appInfo img{
 		width: 20%;
 		height: 20%;
 	}
-	.appInfo p{
-		padding: 0 400px;
-	}
 }
-
 @media only screen and (max-width: 700px){
 	.appInfo h1{
 		font-size: 25px;
@@ -162,14 +195,6 @@ h1 {
 	.appInfo h3{
 		font-size: 15px;
 	}
-	.appInfo{
-
-	}
-}
-
-.appShots img{
-	
-	border-radius: 0%;
 }
 
 
