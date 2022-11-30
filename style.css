@@ -143,6 +143,7 @@ h1 {
 
 	/*APP INFO*/
 .appInfo{
+	padding: 30px 0;
 	display: inline-block;
 	text-align: left;
 }
@@ -162,6 +163,20 @@ h1 {
 }
 
 
+
+
+/* IPAD SCREENSHOTS*/
+.longShots{
+	padding: 20px 0;
+	display: inline-block;
+}
+.longShots img{
+	border-radius: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+
 /* APP SCREENSHOTS*/
 .appShots{
 	padding: 20px 0;
@@ -178,6 +193,10 @@ h1 {
 		width: 35%;
 		height: 35%;
 	}
+	.longShots img{
+		width: 100%;
+		height: 100%;
+	}
 	.appInfo p{
 		padding-right: 25%;
 	}
@@ -187,11 +206,23 @@ h1 {
 		width: 25%;
 		height: 25%;
 	}
+	.longShots img{
+		width: 100%;
+		height: 100%;
+	}
+	.appPage{
+		padding: 0 5%;
+	}
+	
 }
 @media only screen and (min-width: 1400px){
 	.appInfo img{
 		width: 18%;
 		height: 18%;
+	}
+	.longShots img{
+		width: 50%;
+		height: 50%;
 	}
 }
 @media only screen and (max-width: 700px){
