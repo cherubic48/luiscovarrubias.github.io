@@ -1,4 +1,7 @@
 /*navbar below*/
+.container h1{
+	padding: 0 12px;
+}
 header {
 	padding: 20px 0 10px 0;
 	background: #33cca8;
