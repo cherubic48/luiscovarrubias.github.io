@@ -79,13 +79,16 @@ p {
 body {
 	font-family: Verdana, sans-serif;
 }
-.projects a{
+.showcase{
+	padding: 0 15px;
+}
+.showcase a{
 	text-decoration:none;
 	cursor: pointer;
 	color: #000;
 }
 
-.projects a:hover{
+.showcase a:hover{
 	text-decoration: underline;
 }
 h1 {
@@ -105,7 +108,7 @@ h1 {
 	height: 35%;
 }
 .projectsPage p{
-	padding: 0 40px;
+	padding: 0 20%R;
 }
 .projectsPage h1 {
 	text-align: left;
@@ -288,6 +291,8 @@ h1 {
 	/*background-color: #f3e5ab;
 	border: 3px solid grey;*/
 }
+
+
 input[type=text] {
 	width: 100%;
 	border: 2px solid #aaa;
