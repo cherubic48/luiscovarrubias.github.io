@@ -99,8 +99,17 @@ h1 {
 	font-size: 35px;
 }
 
-
-
+/*Java Page ONLY*/
+#javaImage{
+	width: 30%;
+	height: 30%;
+}
+@media only screen and (max-width: 800px){
+	#javaImage{
+		width: 70%;
+		height: 40%;
+	}
+}
 
 /*projectsPage*/
 .projectsPage{
